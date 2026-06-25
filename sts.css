@@ -1,0 +1,338 @@
+@charset "UTF-8";
+
+.WRAPPER{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+
+    
+}
+
+.BOXLOGO{
+    width: 15%;
+    height: 90px;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tamanhodologo{
+    max-width: 100%;
+    max-height: 80px;
+}
+
+
+.MENU{
+    width: 85%;
+    height: 90px;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 15px 25px;
+
+    background-color: #672809;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.4s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(143,135,23);
+    border-radius: 20px;
+}
+
+.botao{
+    background-color: #c74606 !important;
+}
+
+
+
+.BANNERSUPEIOR{
+    width: 100%;
+    background-color: #111;
+}
+
+.imgbannersuperior{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.DEGUSTACAO{
+    width: 28%;
+    margin: 1%;
+    padding: 1%;
+
+    background-color:black;
+    border-radius: 10px;
+}
+
+.imgDegustacao{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.BANNERINFERIOR{
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+
+    background-color: black;
+    border-radius: 10px;
+}
+
+.imgbannerinferior{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.BOXTEXTO{
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.VENHANOSCONHECER{
+    width: 50%;
+    background-color: black;
+}
+
+.BOXREDES{
+    width: 50%;
+    background-color: black;
+}
+
+.IMGINF1{
+    width: 100%;
+    height: auto;
+    display: block;
+    /* float: left; */
+}
+
+
+.IMGINF2{
+    width: 100%;
+    height: auto;
+    display: block;
+    /* float: right; */
+
+}
+
+.RODAPE{
+    width: 100%;
+
+}
+
+.Textorodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 60px;
+
+    background-color: black;
+    color: rgb(214, 167, 13);
+
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+
+
+.menu-container{
+    width: 80%;
+    /* max-width: 1200px; */
+     
+
+    margin: 40px auto;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.menu-card{
+    background-color: rgb(187, 147, 16);
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    text-align: center;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.menu-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.menu-card h3{
+    padding: 15px;
+    font-size: 15px;
+}
+
+.menu-card p{
+    padding-bottom: 15px;
+    color: #555;
+}
+
+.featured-card img{
+    height: 300px;
+}
+
+.featured-text{
+    padding: 15px;
+}
+
+.featured-text h2{
+    font-size: 20px;
+}
+
+.featured-text h1{
+    font-size: 18px;
+    color: #444;
+}
+
+
+
+.zoom{
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover{
+    transform: scale(1.05);
+}
+
+
+.CONTATO{
+    width: 100%;
+    background-color: #f5f5f5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 80px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.IMAGEMCONTATO{
+    width: 30%;
+    text-align: center;
+}
+
+.IMAGEMCONTATO img{
+    width: 100%;
+    max-width: 350px;
+}
+
+.FORMULARIO{
+    width: 50%;
+}
+
+.CAMPO{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.CAMPO label{
+    width: 180px;
+    font-size: 30px;
+    color: #222;
+}
+
+.CAMPO input{
+    width: 100%;
+    height: 40px;
+
+    border: 3px solid #3d2e1f;
+    border-radius: 8px;
+
+    padding-left: 10px;
+}
+
+.CAMPO textarea{
+    width: 100%;
+    height: 180px;
+
+    border: 3px solid #3d2e1f;
+    border-radius: 8px;
+
+    resize: none;
+    padding: 10px;
+}
+
+.BOTOES{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.BOTOES button{
+    width: 140px;
+    height: 50px;
+
+    margin: 10px;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    background-color: white;
+
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+}
+
+.BOTOES button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
